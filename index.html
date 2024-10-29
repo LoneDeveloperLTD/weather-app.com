@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="intro">
+            <h1>Weather App</h1>
+            <p>Get all the weather information of your favourite cities.</p>
+        </div>
+       
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="enter city name" spellcheck="false">
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="error">Invaild country name</div>
+            <div class="weather">
+                <img src="images/rain.png"  class="weather-icon">
+
+                <h1 class="temp">22&deg;c</h1>
+
+                <h2 class="city">Makurdi</h2>
+
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" >
+                        <div>
+                            <p class="humidity">30%</p>
+
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" >
+                        <div>
+                            <p class="wind">15 km/hr</p>
+                            
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="end">
+                <h2>Developer: Gagaor Raphael</h2>
+                 <h2>internet Name:Muchacho</h2>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+    </html>
